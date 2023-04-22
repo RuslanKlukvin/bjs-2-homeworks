@@ -13,7 +13,6 @@ function Student(name, gender, age) {
     console.log(marks in this);
     if ("marks" in this) {
       console.log(marks);
-      // this.marks = this.marks.concat(marks);
       this.marks.push(...marks);
     }
   };
